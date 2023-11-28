@@ -77,13 +77,11 @@
   align-items: center;
   justify-content: center;
   max-width: 1200px;
-  
 }
 .intelligent-card-section-wrapper {
-width: 100%;
-aspect-ratio: 1/1;
-position: relative;
-
+  width: 100%;
+  aspect-ratio: 1/1;
+  position: relative;
 }
 
 .intelligent-card-section .card {
@@ -118,4 +116,42 @@ position: relative;
   width: 100%;
   height: 100%;
   position: relative;
+}
+.about-us-section {
+  margin-top: 100px;
+}
+.about-us-section .about-us-cards {
+  width: 100%;
+  margin-top: 60px;
+  gap: 30px;
+}
+.about-us-section .about-us-cards .card {
+  padding: 30px;
+  gap: 30px;
+  border-radius: 3px;
+  border: 1px solid #3d3e3f;
+  background: #2b2b2c;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+}
+.about-us-section .about-us-cards p {
+  color: #fff;
+  font-size: 45px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 28px;
+  margin: 0;
+}
+.about-us-section .about-us-cards img {
+  width: 1px;
+height: 60px;
+}
+.about-us-section .about-us-cards span {
+  color: #B4BCD0;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 26px; 
 }
